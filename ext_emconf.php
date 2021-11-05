@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'TC Henny',
+    'title' => 'TC Henny 1',
     'description' => 'My very first composer installed local extension',
     'category' => 'misc',
     'author' => 'Henny Jensen',
@@ -9,5 +9,5 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'TypoConsult A/S',
     'state' => 'excludeFromUpdates',
     'clearCacheOnLoad' => true,
-    'version' => '11.0.0',
+    'version' => '11.0.1',
 ];
