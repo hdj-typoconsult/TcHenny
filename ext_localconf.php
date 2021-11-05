@@ -3,14 +3,14 @@
 defined('TYPO3_MODE') || die('Access denied.');
 
 (function () {
-    $extKey = 'tc_base';
+    $extKey = 'tc_henny';
     $labelPrefix = 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_db.xlf:';
     $extConf = \TYPOCONSULT\TcSys\Utility\CommonUtility::getExtensionConfiguration($extKey);
 
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-        'TcBase',
+        'TcHenny',
         'Plugin',
-        [\TYPOCONSULT\TcBase\Controller\PluginController::class => 'show'],
+        [\TYPOCONSULT\TcHenny\Controller\PluginController::class => 'show'],
         [],
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
     );
@@ -20,7 +20,7 @@ defined('TYPO3_MODE') || die('Access denied.');
         $wizardItemsTab = $extConf['wizardItemsTab'];
     }
 
-    $pluginName = 'tcbase_plugin';
+    $pluginName = 'tchenny_plugin';
 
     // Add plugin to wizardItems
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
@@ -48,7 +48,4 @@ defined('TYPO3_MODE') || die('Access denied.');
         }
         '
     );
-
-    // Adding various hooks
-    $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['tc_sys']['addAdditionalPreview'][] = \TYPOCONSULT\TcBase\Hooks\VoilaHook::class . '->addAdditionalPreview';
 })();
