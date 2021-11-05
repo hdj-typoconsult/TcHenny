@@ -1,0 +1,14 @@
+{
+  "name": "typoconsult/tc_henny",
+  "type": "typo3-cms-extension",
+  "autoload": {
+    "psr-4": {
+      "TYPOCONSULT\\TcHenny\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "tc_henny"
+    }
+  }
+}
