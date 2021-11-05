@@ -1,0 +1,47 @@
+lib {
+    contentElement {
+        settings {
+            addClass {
+                tchenny_plugin = {$plugin.tx_tchenny.settings.className}
+            }
+        }
+    }
+}
+
+plugin {
+    tx_tchenny {
+        view {
+            templateRootPaths {
+                10 = {$plugin.tx_tchenny.view.templateRootPath}
+            }
+
+            partialRootPaths {
+                10 = {$plugin.tx_tchenny.view.partialRootPath}
+            }
+
+            layoutRootPaths {
+                10 = {$plugin.tx_tchenny.view.layoutRootPath}
+            }
+        }
+
+        settings {
+            generalWidth = {$styles.variables.generalWidth}
+            tabletMaxWidth = {$styles.variables.tabletMaxWidth}
+            tabletMinWidth = {$styles.variables.tabletMinWidth}
+
+            stylesPaths {
+                10 = {$plugin.tx_tchenny.settings.stylesPaths.10}
+            }
+
+            javascriptPaths {
+                10 = {$plugin.tx_tchenny.settings.javascriptPaths.10}
+            }
+
+            className = {$plugin.tx_tchenny.settings.className}
+        }
+
+        persistence {
+            storagePid = {$plugin.tx_tchenny.persistence.storagePid}
+        }
+    }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-10-18T11:35:58Z" product-name="tc_cobio">
+        <header/>
+        <body>
+            <trans-unit id="siteConfiguration.tabs.labels">
+                <source>Labels</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.tabs.custom">
+                <source>Custom</source>
+            </trans-unit>
+
+            <trans-unit id="siteConfiguration.searchLabel">
+                <source>Label for Search</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.searchLabel.description">
+                <source>Please provide a label...</source>
+            </trans-unit>
+
+            <trans-unit id="siteConfiguration.sectionSearchTitle">
+                <source>Title for Search</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.sectionSearchTitle.description">
+                <source>Please provide a title...</source>
+            </trans-unit>
+
+            <trans-unit id="siteConfiguration.sectionSearchInputPlaceholder">
+                <source>Title for search input placeholder</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.sectionSearchInputPlaceholder.description">
+                <source>Please provide a text...</source>
+            </trans-unit>
+
+            <trans-unit id="siteConfiguration.sectionSearchButtonText">
+                <source>Search button label</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.sectionSearchButtonText.description">
+                <source>Please provide a label...</source>
+            </trans-unit>
+
+
+            <trans-unit id="siteConfiguration.trustpilotLink">
+                <source>Trustpilot link</source>
+            </trans-unit>
+            <trans-unit id="siteConfiguration.trustpilotLink.description">
+                <source>Please provide a link...</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

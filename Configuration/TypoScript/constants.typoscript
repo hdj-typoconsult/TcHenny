@@ -1,0 +1,25 @@
+plugin {
+    tx_tchenny {
+        view {
+            templateRootPath = EXT:tc_henny/Resources/Private/Templates/
+            partialRootPath = EXT:tc_henny/Resources/Private/Partials/
+            layoutRootPath = EXT:tc_henny/Resources/Private/Layouts/
+        }
+
+        settings {
+            stylesPaths {
+                10 = EXT:tc_henny/Resources/Private/StyleSheets/Styling.scss
+            }
+
+            javascriptPaths {
+                10 = EXT:tc_henny/Resources/Private/JavaScripts/JavaScript.js
+            }
+
+            className = tx-tc-henny
+        }
+
+        persistence {
+            storagePid =
+        }
+    }
+}
